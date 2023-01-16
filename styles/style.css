@@ -287,3 +287,157 @@ margin-bottom: 20px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);   
 }
+
+
+/* section 4 styles */
+
+.container-4{
+    margin-bottom: 130px;
+}
+
+.container-4-title{
+      
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+padding-left: 80px;
+
+}
+
+.container-4-info{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+padding-left: 80px;
+
+}
+
+.container-4-list{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.fact-list{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.fact-list img{
+    padding-left: 60px;
+    padding-top: 14px;
+}
+
+.fact-list:hover{
+   
+    transform: rotate(49deg);
+}
+
+.fact-title{
+    font-family: 'Work Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 35px;
+   padding-left: 60px;
+}
+
+.fact-info{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+color: #727272;
+padding-left: 40px;
+}
+
+.unique{
+         margin-bottom: 150px;
+         text-align: center;
+
+}
+
+.unique-header{
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+}
+
+.unique-para{
+ font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #727272;
+
+}
+
+.container-5{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.container-5-header{
+
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+
+}
+
+
+.container-5-para{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #727272;
+padding-bottom: 20px;
+
+}
+
+.iconic{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    margin-bottom: 50px;
+}
+
+/* footer styles */
+.foot{
+    background-color: #FFF4E7;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.footer{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #424242;
+
+}
