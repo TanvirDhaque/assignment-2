@@ -172,6 +172,25 @@ color: #131313;
 /* 3rd section styles */
 
 
+.container-3-main{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.container-3-written-part{
+         padding-left: 30px;
+         padding-right: 30px;    
+}
+
+.feature-box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
 .header-4{
     font-family: 'Work Sans';
 font-style: normal;
@@ -179,6 +198,7 @@ font-weight: 700;
 font-size: 45px;
 line-height: 53px;
 color: #131313;
+border-left: 4px solid #FF900E;
 
 }
 
@@ -190,4 +210,80 @@ font-size: 16px;
 line-height: 26px;
 color: #727272;
 
+}
+
+.feature-title{
+    
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #131313;
+padding-left: 30px;
+padding-right: 15px;
+padding-top: 15px;
+
+}
+
+.feature-info{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    
+}
+
+.pretty-girl-with-button img{
+             
+           height: 820px;
+           width: 650px;
+           border-radius: 8px;
+           padding-left: 50px;
+           padding-right: 50px;
+           padding-top: 90px;
+
+}
+
+.pretty-girls-button{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 70px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 21px ;
+padding-bottom: 20px;
+background-color: #FF900E;
+border-radius: 8px;
+border: none;
+
+}
+
+.exp{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 40px;
+text-align: center;
+margin-bottom: 20px;
+
+}
+
+
+.pretty-girl-with-button .pretty-girls-button{
+
+    position: relative;
+    top: 1%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);   
 }
